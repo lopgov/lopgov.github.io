@@ -18,7 +18,7 @@
 <meta property="og:description" content="$link$  显然能拆分成两个问题： $$F_{type,0}(a,b,c) &#x3D; \prod \limits_{i&#x3D;1}^a \prod \limits_{j&#x3D;1}^b \prod \limits_{k&#x3D;1}^c i^{f(type)}\F_{type,1}(a,b,c) &#x3D; \prod \limits_{i&#x3D;1}^a \prod \l">
 <meta property="og:locale">
 <meta property="article:published_time" content="2025-03-27T01:15:20.000Z">
-<meta property="article:modified_time" content="2025-04-04T07:36:46.453Z">
+<meta property="article:modified_time" content="2025-04-04T07:57:05.011Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Solution">
 <meta name="twitter:card" content="summary">
@@ -457,7 +457,7 @@
             <p>原文作者：<a href="https://lopgov.github.io">John Doe</a>
             <p>原文链接：<a href="https://lopgov.github.io/2025/03/27/%E8%8E%AB%E5%8F%8D%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98/">https://lopgov.github.io/2025/03/27/%E8%8E%AB%E5%8F%8D%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98/</a>
             <p>发表日期：<a href="https://lopgov.github.io/2025/03/27/%E8%8E%AB%E5%8F%8D%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98/">March 27th 2025, 9:15:20 am</a>
-            <p>更新日期：<a href="https://lopgov.github.io/2025/03/27/%E8%8E%AB%E5%8F%8D%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98/">April 4th 2025, 3:36:46 pm</a>
+            <p>更新日期：<a href="https://lopgov.github.io/2025/03/27/%E8%8E%AB%E5%8F%8D%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0%E9%A2%98/">April 4th 2025, 3:57:05 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     <!-- paginator -->
@@ -490,6 +490,18 @@
     <!-- timeliness note -->
     <!-- idea from: https://hexo.fluid-dev.com/posts/hexo-injector/#%E6%96%87%E7%AB%A0%E6%97%B6%E6%95%88%E6%80%A7%E6%8F%90%E7%A4%BA -->
     <!-- Mathjax -->
+            <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+
 </main>
 
                 <!-- profile -->
