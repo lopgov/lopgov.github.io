@@ -399,6 +399,35 @@
                 <main class="main index-page">
             
         <article class="index-post">
+            <a class="abstract-title" href="/2025/04/07/Trick/">
+                <span class="abstract-title-text">Trick</span>
+            </a>
+            <div class="abstract-content">
+                Slope TrickWhatSlope Trick 是用数据结构维护 连续凸分段一次函数，且每段斜率较小且为整数。
+How维护一个点集，对于点集中 $x$ 出现的次数 $k$ 就表示函数 $f(x)$ 上的斜率为 $k$。可能有的操作（用到在用，先写着）：
+
+函数相加：分段点集合并即可。
+找最大&#x2F;小：斜率为零的那一段，大根堆 $L, R$ 维护左右的分段点即可。
+加一次函数：直接把 $R$ 的前 $k$（斜率）个点丢到 $L$ 上。如果斜率较大，可以做前&#x2F;后缀和即可。
+前后缀min max：丢掉 $L$ 或 $R$ 中的所有点即可。
+平移&#x2F;翻转：斜率变化点...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2025/04/07">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2025/04/07</span>
+                </div>
+                <!-- tags -->
+                    <div class="abstract-tags" >
+        <a class="post-tag" href="javascript:void(0);" data-tags="Unknow">Unknow</a>
+</div>
+
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
             <a class="abstract-title" href="/2025/04/02/CF2061H2/">
                 <span class="abstract-title-text">CF2061H2</span>
             </a>
@@ -477,15 +506,20 @@ $s, t$ 存在一个有效操作（这样可以重复操作然后一个个归位�
         
         
         
+        
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 3
+        Total : 4
         </div>
         <!-- search  -->
     </div>
     <div class="post-archive">
             <div class="archive-year"> 2025 </div>
             <ul class="year-list">
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/07</span>
+            <a class="archive-post-title" href="/2025/04/07/Trick/">Trick</a>
+        </li>
         <li class="archive-post-item">
             <span class="archive-post-date">04/02</span>
             <a class="archive-post-title" href="/2025/04/02/CF2061H2/">CF2061H2</a>
@@ -507,6 +541,10 @@ $s, t$ 存在一个有效操作（这样可以重复操作然后一个个归位�
             <span class="sidebar-tag-name" data-tags="Solution">
                 <span class="iconfont-archer">&#xe606;</span>
                 Solution
+            </span>
+            <span class="sidebar-tag-name" data-tags="Unknow">
+                <span class="iconfont-archer">&#xe606;</span>
+                Unknow
             </span>
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
